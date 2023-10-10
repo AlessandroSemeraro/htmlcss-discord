@@ -11,13 +11,40 @@ ul{
     display: flex;
 }
 
+.flex{
+    display: flex;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
+
 header{
    font-size: 1.3rem;
    color: white;
     
 }
 
+footer{
+    background-color: #23272A
+}
+
 .flex-aj-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-aj-column-center-footer{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+
+}
+
+.flex-aj-column-flex-start{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +83,7 @@ header{
     align-items: center;
 }
 
-#logo-discord{
+.logo-discord{
     color: red;
 }
 
@@ -186,7 +213,6 @@ header{
 
 .bg-bottom-discord-screen-sharing{
     background: url(../img/stars.svg);
-    background-position: initial;
     background-size: contain;
 }
 
@@ -200,7 +226,73 @@ header{
 }
 
 .container-bottom-bg-discord-screen-sharing{
-    padding-bottom: 3rem;
+    padding: 2rem 0rem;
 }
 
-.bg-
+.bg-footer{
+    padding: 4rem;
+}
+
+.container-footer{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #7289DA;
+    padding-bottom: 1.5rem;
+    
+}
+
+.columns-flex{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.title-footer-first-column{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #7289DA;
+}
+
+.italy-flag{
+    width: 2rem;
+}
+
+#info-language-font{
+    font-size: 1rem;
+    color: white;
+    padding-left: 0.3rem;
+}
+
+.language-info{
+    padding: 2rem 0rem;
+}
+
+.arrowdown-size{
+    font-size: 0.5rem;
+    vertical-align: middle;
+}
+
+.fa-brands{
+    padding: 0 1rem 0 0;
+}
+
+.title-footer-columns{
+    color: #778FE3 ;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0.2rem;
+}
+
+.li-font-color{
+    color: white;
+}
+
+.container-bottom-footer{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 2rem 0;
+}
